@@ -2,7 +2,7 @@
 PYTHON_EXEC ?= python3
 NODE_VERSION ?= 20.15.1
 VENV ?= "./.venv"
-PNPM ?= pnpm@9.6.0
+PNPM ?= pnpm@9.9.0
 SHELL := /bin/bash
 
 venv:

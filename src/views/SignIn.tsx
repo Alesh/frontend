@@ -9,15 +9,14 @@ const SignIn = () => {
   return (
     <Modal defaultOpen onClose={onClose}>
       <ModalContent>
-        <ModalHeader>Sign in</ModalHeader>
+        <ModalHeader>Вход</ModalHeader>
         <ModalBody>
-          SIGN IN; SIGN IN; SIGN IN; <br />
-          SIGN IN; SIGN IN; SIGN IN; <br />
-          SIGN IN; SIGN IN; SIGN IN; <br />
+          <p>Аутентикация, авторизация, механизм учетных записей и т.п. пока еще не реализованы.</p>
+          <p>Заходи кто хочешь, бери что захочешь!</p>
         </ModalBody>
         <ModalFooter>
           <Button color="primary" variant="light" onPress={onClose}>
-            Close
+            OK
           </Button>
         </ModalFooter>
       </ModalContent>
